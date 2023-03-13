@@ -1,11 +1,10 @@
 service:
-  name: mmservice
+  name: rhpyc
   attributes:
     host: 0.0.0.0
-    port: 7777
+    port: 7778
     mode: threaded
   configs:
     hosts:
       - localhost
-
-
+      - 92.53.64.197
